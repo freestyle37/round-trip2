@@ -1,0 +1,80 @@
+@media (max-width: 767px) {
+
+.progress-bar-wrapper,
+.block-config-provider--rn-user .block__inner .block__content .user-settings {
+	display: none;
+}
+.block-main-content {
+	padding: 0;
+	
+}
+.container.pr-header__rw .pr-header__header-first,
+.page .top-header nav {
+	display: none;
+}
+.container.pr-header__rw .pr-header__header-second {
+	background: url(rn-logo-mobile.png) no-repeat 0% 50%;
+	flex-basis: 50%;
+	height: 50px;
+	background-size: 100%;
+	background-size: 14rem;
+	max-width: 100%;
+}
+.container.pr-header__rw .header-third {
+    flex-basis: 50%;
+    background: url(hamburger.svg) no-repeat 100% 50%;
+    min-width: 10px;
+    min-height: 30px;
+    background-size: 2rem;
+}
+.page .top-header .menu-hamburger .icon {
+    background: url(hamburger.svg) no-repeat center center;
+    background-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.page .pr-footer__footer * {
+    width: 100%;
+}
+.pr-footer__footer>div, .pr-footer__footer>nav {
+    display: none;
+}
+.pr-footer__footer>.only-mobile {
+    display: flex;
+}
+.to-search-btn.mobile-btn.to-top {
+
+    background: #988d8d;
+    margin: 0 auto;
+    padding: 17px 40px;
+    text-align: center;
+    width: 95%;
+    max-width: 300px;
+    color: #f1ede6;
+}
+.page .pr-footer__footer .block {
+    margin: 0;
+    flex-basis: 100%;
+}
+.page .footer-container {
+    padding: 40px 0 60px 0;
+}
+[data-drupal-selector="edit-actions"] input {
+	width: 90%;
+    margin: 0 auto;
+}
+.confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
+    background-position: 50px 18px;
+}
+.train-bookingpassenger-form .train-booking-passenger-form .sidebar {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+}

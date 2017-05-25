@@ -1,0 +1,112 @@
+.progress-bar-wrapper {
+	flex-basis: 100%;
+}
+.booking-progress-bar.steps-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 30px auto;
+}
+.booking-progress-bar.steps-4 > div {
+    flex-basis: calc(100%/4);
+    display: inline-flex;
+    position: relative;
+}
+	.booking-progress-bar .circle {
+		color: #ffffff;
+	  	border-radius: 50%;
+	    background: #acacad;
+	    width: 38px;
+	    height: 38px;
+	    display: inline-flex;
+	    justify-content: center;
+	    align-items: center;
+	    font-size: 1.4rem;
+	    font-weight: bold;
+	    z-index: 2;
+	   
+	    transition: 0.4s linear;
+		}
+	.booking-progress-bar .line {
+    background: #acacad;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16px;
+    z-index: 1;
+    -webkit-transform: translate3d(0,0,1px);
+	}
+	.booking-progress-bar .step {
+    text-transform: uppercase;
+    position: absolute;
+    left: 38px;
+    right: 0;
+    text-align: center;
+    top: 8px;
+    z-index: 2;
+    color: #acacad;
+	}
+	.booking-progress-bar .step span {
+    background: #ffffff;
+    padding: 3px;
+	}
+	.booking-progress-bar .step a {
+    color: #acacad;
+	}
+	.booking-progress-bar .circle a {
+    color: #ffffff;
+	}
+	.booking-progress-bar .next .circle {
+    box-shadow: 0 0 0 8px rgba(172,172,173,0.5);
+	}
+	.booking-progress-bar .past:hover .circle {
+    background: #929294;
+   	box-shadow: 0 0 0 8px rgba(119,119,119,0.4);
+    transition: 0.4s linear;
+	}
+    .booking-progress-bar .past:hover .line {
+        background: #a59696;
+    }
+	
+	.booking-progress-bar.steps-4 .last {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+    .booking-progress-bar .pre-last .step {
+        left: 0px;
+    }
+.booking-progress-bar .active .circle {
+    background: #f9b558;
+    box-shadow: 0 0 0 8px rgba(247, 156, 27, 0.36);
+}
+
+.next.last .circle::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 4px;
+    background: white;
+    transform: rotate(135deg);
+    left: 15px;
+}
+
+.next.last .circle::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 4px;
+    background: white;
+    transform: rotate(45deg);
+    left: 9px;
+    bottom: 15px;
+}
+.booking-progress-bar .active .step {
+    color: #f9b558;
+}
+.booking-progress-bar .active .line {
+    background: #f9b558;
+}

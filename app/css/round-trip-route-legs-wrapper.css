@@ -1,0 +1,267 @@
+.open-ticket.ticket-trigger,
+.form-wrapper .passenger-details-header .provide-later-message,
+.train-booking-passenger-form .route-legs-wrapper .passenger-details-header,
+.passenger-details-header {
+	display: none;    
+}
+.route-legs-wrapper {
+	flex-basis: 70%;
+}
+.route-legs-wrapper .form-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.route-legs-wrapper .leg-info-wrapper {
+	border: 1px solid #eaeaf5;
+}
+.passenger-details-header {
+	border: 1px solid #eaeaf5;
+	border-top: none;
+}
+.route-legs-wrapper .leg-info-header, 
+.route-legs-wrapper .leg-info-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.route-legs-wrapper .leg-info-header {
+	background: rgba(154, 132, 132, 0.12);
+}
+.route-legs-wrapper .leg-info-body, 
+.passenger-form-header-wrapper {
+	padding: 4%;
+}
+.passenger-details-header {
+	padding: 2% 4%;
+	background: rgba(154, 132, 132, 0.12);
+}
+.route-legs-wrapper .leg-info-header-left {
+	flex-basis: 60%;
+	/*outline: 1px solid #eaeaf5;*/
+	padding: 4%;
+	
+}
+.leg-info-body .column {
+	flex-basis: calc(100%/3);
+}
+
+.route-legs-wrapper .leg-info-header-right {
+	position: relative;
+	flex-basis: 40%;
+	margin: 5%;
+    padding-left: 30px;
+    border-left: 1px solid #c7c1c1;
+}
+.leg-info-header-left .stations,
+.leg-info-header-right .count,
+.leg-info-body .info-title,
+.leg-info-body .middle {
+	
+    margin-bottom: 15px;
+}
+.leg-info-body .info-title {
+	color: rgba(167, 160, 160, 0.88);
+	font-size: .9rem;
+
+}
+
+/*-------------------------------------------------------------------------------*/
+.passenger-wrapper {
+	border: 1px solid black;
+}
+.passenger-wrapper .fields-wrapper {
+	border-top: 1px solid #eaeaf5;	
+}
+.passenger-wrapper .internal-fields-wrapper {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*.train-bookingpassenger-form .all-passengers-wrapper .passenger-wrapper.rzd-passenger-form */
+.internal-fields-wrapper > div:nth-of-type(3n+1) {
+    flex-basis: 37%;
+    width: 37%;
+  
+}
+/*.train-bookingpassenger-form .all-passengers-wrapper .passenger-wrapper.rzd-passenger-form */
+.internal-fields-wrapper > div:nth-of-type(3n+2) {
+	flex-basis: 37%;
+    width: 37%;
+     
+}
+/*.train-bookingpassenger-form .all-passengers-wrapper .passenger-wrapper.rzd-passenger-form */
+.internal-fields-wrapper > div:nth-of-type(3n+3) {
+    flex-basis: 21%;
+    width: 21%;
+    
+}
+/*.train-bookingpassenger-form .all-passengers-wrapper */
+.internal-fields-wrapper .form-item {
+    height: 100%;
+}
+.internal-fields-wrapper > div input[type="text"] {
+    width: 100%;
+}
+.train-bookingpassenger-form .all-passengers-wrapper .internal-fields-wrapper > div {
+    padding-bottom: 15px;
+}
+label {
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    padding-bottom: 10px;
+}
+.train-bookingpassenger-form .all-passengers-wrapper .internal-fields-wrapper .form-item select {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.passenger-wrapper.rzd-passenger-form .passenger-form-header-wrapper::before {
+    
+    content: "";
+    width: 22px;
+    height: 22px;
+    
+    background: url(ninja-adult.svg) repeat;
+    background-size: 22px 22px;
+    
+}
+.passenger-wrapper.rzd-passenger-form .passenger-form-header-wrapper {
+    flex-direction: row;
+    align-items: center;
+}
+span.passenger-info {
+    padding-left: 10px;
+}
+.fields-wrapper .internal-fields-wrapper>div:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+	display: none;
+}
+
+.fields-wrapper .internal-fields-wrapper>div {
+	flex-basis: 49%;
+}
+.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox {
+    display: flex;
+    padding-left: 4%;
+    padding-bottom: 20px;
+}
+label.option {
+    padding-left: 5px;
+}
+
+/*div#edit-route-legs-1-all-passengers-passenger-2-fields-save-details {
+    flex-direction: row-reverse;
+    padding: 4%;
+}*/
+
+/*input#edit-route-legs-1-all-passengers-passenger-2-fields-save-details-button {
+    padding: 15px 50px;
+   
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: rgb(245, 207, 49);
+}*/
+.fields-wrapper .save-details-wrapper {
+	flex-direction: row-reverse;
+ 	padding: 15px 50px;
+    display: flex;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-top: 1px solid #cecdcd;
+   
+}
+.fields-wrapper .save-details-wrapper .button {
+	background: rgb(253, 167, 26);
+    
+    padding: 15px 45px;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+}
+.bottom-block {
+    border: 1px solid #c7bcbc;
+    margin-top: 30px;
+}
+.bottom-block-fields {
+    padding: 30px 4%;
+}
+.bottom-block-fields .js-form-type-email {
+	display: flex;
+    padding: 10px 0;
+    margin: 10px 0 30px 0;
+   	border: 1px solid #e0d4d4;
+}
+.bottom-block-fields .js-form-type-email input {
+	width: 100%;
+	border: none;
+	padding-left: 15px;
+}
+.bottom-block-fields .form-type-textarea .form-textarea-wrapper {
+	
+	display: flex;
+}
+.bottom-block-fields .form-type-textarea .form-textarea-wrapper .form-textarea {
+	width: 100%;
+	padding: 15px;
+}
+.bottom-block-title {
+    padding: 20px 0 20px 4%;
+    border-bottom: 1px solid #e8d7d7;
+    background: #eceaea;
+}
+[data-drupal-selector="edit-actions"] {
+	flex-basis: 70%;
+	flex-direction: row-reverse;
+    padding: 25px 0px;
+    display: flex;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+[data-drupal-selector="edit-actions"] input {
+	background: rgb(191, 4, 17);
+    padding: 17px 30px;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+}
+span.departure.value::after {
+    font-family: 'FontAwesome';
+    content: "\f2d6";
+    font-size: 1.25rem;
+    margin: 0px 20px;
+    line-height: 1;
+    left: 1px;
+    top: 0;
+}
+.train-bookingpassenger-form .leg-info-wrapper .number {
+    font-size: 1.625rem;
+}
+span.small-font-size {
+    font-size: 1rem;
+    color: #acacad;
+}
+.page__row form .route-legs-wrapper {
+    width: 100%;
+}

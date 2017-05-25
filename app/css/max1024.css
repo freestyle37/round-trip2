@@ -1,0 +1,80 @@
+@media (max-width: 1024px)  {
+/*and (min-width: 768px)*/
+
+.leg-info-header-right,
+.leg-info-body .bottom,
+ {
+	display: none;
+}
+.block-main-content {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.route-legs-wrapper,
+[data-drupal-selector="edit-actions"],
+.sidebar {
+    flex-basis: 100%;
+}
+.sidebar .order-details-wrapper {
+	margin: 0;
+}
+.order-details .route-items.route-label {
+    margin: 25px 0 10px 0;
+}
+
+.sidebar .order-total-wrapper.total-order {
+    padding: 4% 0% 8% 0%;
+}
+.confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
+    background-position: 80px 18px;
+}
+.block-config-provider--rn-user .block__inner .user-settings .current-lang-currency {
+	display: none;
+}
+.block-config-provider--rn-user .block__inner .user-settings .icon {
+    background: url(setting-icon.svg) no-repeat 50% 49%;
+    width: 28px;
+    height: 28px;
+    background-size: 28px;
+}
+
+
+
+
+
+.route-legs-wrapper .leg-info-header-left {
+    flex-basis: 100%;
+}
+
+.sidebar .order-details-wrapper {
+	padding: 0;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #cec1c1;
+    border-top: none;
+   /* background: #f3f2f2;*/
+}
+.sidebar .order-total-wrapper.total-order {
+    padding: 4% 20px 8% 20px;
+  /*  background: #f3f2f2;*/
+}
+.train-bookingpassenger-form .train-booking-passenger-form .sidebar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.train-bookingpassenger-form .train-booking-passenger-form .sidebar {
+    background: #f3f2f2;
+    margin-top: 20px;
+}
+.order-details.sidebar-item.tickets-quantity.sidebar-label {
+	border-bottom: 1px solid #c1c1c1;;
+}
+
+
+
+
+
+}

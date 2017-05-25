@@ -1,0 +1,93 @@
+@media (max-width: 499px) {
+
+.container.pr-header__rw .pr-header__header-first,
+.page .top-header nav,
+.progress-bar-wrapper,
+.route-legs-wrapper .leg-info-header-right,
+.route-legs-wrapper .leg-info-header-right .count,
+.route-legs-wrapper .leg-info-header-right .coach-class,
+.leg-info-wrapper .leg-info-body,
+span.label-close {
+	display: none;
+}
+.container.pr-header__rw .pr-header__header-second {
+	background-size: 100%;
+}
+.container.pr-header__rw .header-third {
+    background-size: 23%;
+}
+/*.container.pr-header__rw {
+	max-width: 480px;
+}*/
+
+/*.page .top-header .menu-hamburger .icon {
+    background: url(hamburger.svg) no-repeat center center;
+    background-size: 30px;
+    width: 40px;
+    height: 40px;
+}*/
+.fields-wrapper .internal-fields-wrapper>div {
+    flex-basis: 90%;
+}
+.route-legs-wrapper .leg-info-header-right {
+    display: flex; flex-basis: 100%;
+}
+.open-ticket.ticket-trigger
+/*.route-legs-wrapper .leg-info-header-right */{
+    display: flex;
+    flex-basis: 100%;
+    position: relative;
+    justify-content: flex-end;
+}
+.open-ticket.ticket-trigger::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+label.option {
+    white-space: normal;
+}
+.form-type-checkbox .form-checkbox {
+    width: 50px;
+}
+.confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1), 
+.confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
+    background-position: 10px 18px;
+}
+.route-legs-wrapper .leg-info-header{
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.route-legs-wrapper .leg-info-header-right {
+    border: none;
+}
+span.label-open, span.label-close {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+.open-ticket.ticket-trigger::after {
+    content: "";
+    width: 2px;
+    height: 7px;
+    background: #9e8d8d;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 5px;
+    right: 16px;
+}
+.open-ticket.ticket-trigger::before {
+    content: "";
+    width: 2px;
+    height: 7px;
+    background: #9e8d8d ;
+    position: absolute;
+    transform: rotate(135deg);
+    top: 5px;
+    right: 20px;
+}
+
+
+
+}

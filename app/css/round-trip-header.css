@@ -1,0 +1,104 @@
+.pr-header__header-second .block-mobilelogo {
+	display: none;
+}
+.header-container {
+	background: #030303;
+	width: 100%;
+}
+.container.pr-header__rw {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    padding: 10px 1rem;
+    border: 1px solid black;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.container.pr-header__rw > div {
+	/*outline: 1px solid white;*/
+	display: flex;
+	
+}
+.container.pr-header__rw nav {
+	width: 100%;
+}
+.container.pr-header__rw .pr-header__header-first {
+	flex-basis: 40%;
+	justify-content: flex-start;
+	align-items: center;
+}
+.pr-header__header-first .block-menu__content .menu-name--header-left,
+.header-third .menu-name--header-right {
+	display: flex;
+	align-items: center;
+	padding: 0;
+    justify-content: space-around;
+}
+.container.pr-header__rw .pr-header__header-second {
+	flex-basis: 20%;
+    
+   background: url(logo.svg) no-repeat 50% 50%;
+   width: 105px;
+   height: 84px;
+}
+.container.pr-header__rw .pr-header__header-second img {
+	display: none;
+}
+.container.pr-header__rw .header-third {
+	flex-basis: 40%;
+	justify-content: flex-start;
+	align-items: center;
+}
+.header-third nav.block-plugin-id--system-menu-blockheader-right {
+	width: 100%;
+}
+.container.pr-header__rw nav ul a {
+	color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.1875rem;
+    transition: 0.1s linear;
+}
+.pr-header__rw a.menu__link:hover {
+	color: #ffae00;
+}
+
+.page .top-header nav {
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+.block-config-provider--rn-user .block__inner .user-settings,
+.block-config-provider--rn-user .block__inner .user-settings .current-lang-currency {
+	display: flex;
+}
+.block-config-provider--rn-user .block__inner .user-settings .icon {
+	
+    background: url(setting-icon.svg) no-repeat 50% 49%;
+    width: 18px;
+    height: 18px;
+    background-size: 18px;
+}
+.current-lang-currency::before {
+    content: "";
+    background: url(flags-foot.svg) no-repeat;
+    width: 30px;
+    height: 20px;
+    background-size: 90%;
+    margin-left: 10px;
+}
+.current-lang-currency .current-language,
+.current-lang-currency .current-currency {
+	color: white;
+	text-transform: uppercase;
+	margin-left: 7px;
+}
+.block-config-provider--rn-user .icon,
+.block-config-provider--rn-user .current-lang-currency {
+	cursor: pointer;
+}
+.block-config-provider--rn-user .block__inner .block__content .user-settings {
+	display: flex;
+	align-items: center;
+}
+
+

@@ -1,0 +1,93 @@
+/*.header-container,*/
+.mobile-menu-block,
+.block-config-provider--rn-user .block__inner .block__content .user-blocks,
+/*.block-config-provider--rn-user,*/
+
+.visually-hidden /*skip to main content*/ {
+	display: none;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+li {
+	list-style: none;
+	/*padding-bottom: 10px;*/
+}
+.train-booking-passenger-form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    justify-content: space-between;
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+
+ .block-config-provider--rn-user .block__inner .block__content .user-blocks/*1внешний блок для выпадающего окна из шестеренки*/ {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3); position: absolute; left: -545px; top: 67px;
+    width: 570px; height: 500px; z-index: -1; background: white; transition: 3s linear;
+}
+
+#block-languageswitcherblock /*блок для языков*/,
+#block-currencylist /*блок для валюты*/{
+    /*outline: 1px solid yellow;*/
+}
+#block-languageswitcherblock li /*языки элементы списка*/ {
+    display: inline-block; margin: 20px;
+}
+.currency-list div /*div списка валют*/{ display: inline-block; }
+.currency-list .currency-item .sign /*знак валюты*/ { margin-right: 10px; }
+#block-currencylist .currency-item /*валюта элементы списка div*/ {
+    display: inline-block; /*outline: 1px solid blue;*/ margin: 15px 100px 20px 15px;
+}/*выравнивание 2-го и 6-го элемента валют*/
+#block-currencylist .currency-item:nth-child(2) { margin-right: 80px; }
+#block-currencylist .currency-item:nth-child(6) { margin-right: 120px; }
+#block-languageswitcherblock li a /*языки-ссылки*/,
+#block-currencylist .currency-item a/*валюта-ссылки*/ {
+    color: #777777;   text-transform: none;
+}
+#block-languageswitcherblock #block-languageswitcherblock-title /*заголовок в языках*/ {
+    /*outline: 1px dashed red;*/    margin-bottom: 50px;
+}
+#block-languageswitcherblock  a {
+    background: transparent url("flags-foot.svg") no-repeat;
+    background-size: 43px;  padding: 10px; padding-left: 50px;
+}
+#block-languageswitcherblock ul { padding: 0; }
+#block-languageswitcherblock li:first-of-type a  { background-position: 0 7px;    }
+#block-languageswitcherblock li:nth-of-type(2) a { background-position: 0 -68px;  }
+#block-languageswitcherblock li:nth-of-type(3) a { background-position: 0 -30px;  }
+#block-languageswitcherblock li:nth-of-type(4) a { background-position: 0 -216px; }
+#block-languageswitcherblock li:nth-of-type(5) a { background-position: 0 -142px; }
+#block-languageswitcherblock li:nth-of-type(6) a { background-position: 0 -180px; }
+#block-languageswitcherblock li:nth-of-type(7) a { background-position: 0 -105px; }
+#block-languageswitcherblock .block__title span, /*заголовки h2 в языках и валюте*/ 
+#block-currencylist .block__title span { margin-left: 20px; }
+
+.user-settings .icon:hover {
+    animation: sc 2s infinite; transform-origin: 50% 50%;
+}
+    @keyframes sc {
+        0% {transform: rotate(0deg); }
+        100% {transform: rotate(360deg);}
+
+    }
+
+
+.block-config-provider--rn-user .block__content {
+    position: relative;
+}
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);

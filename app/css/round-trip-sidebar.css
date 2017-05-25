@@ -1,0 +1,53 @@
+.sidebar {
+	flex-basis: 30%;
+}
+.sidebar .order-details-wrapper {
+	margin: 0% 2% 7% 7%;
+    padding: 30px 0;
+    border-top: 1px solid #efeeee;
+    border-bottom: 1px solid #efeeee;
+}
+.order-details-wrapper .tickets-quantity {
+	padding-bottom: 15px;
+}
+.order-details .route-items.route-label {
+	margin-bottom: 4%;
+}
+.order-details .tickets-quantity {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #8c7e7e;
+}
+
+.sidebar .order-total-wrapper.total-order {
+	padding: 8% 2% 15% 7%;
+}
+.order-total-wrapper .order-total {
+	display: flex;
+    justify-content: space-between;
+}
+/*///////////////////////////////////////////////////////////*/
+.confidence-block tbody tr td:nth-of-type(1) img {
+	display: none;
+}
+
+.confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1) {
+	background: url("app/img/rn-train.png") no-repeat;
+}
+.confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1) {
+	background: url("app/img/rn-seat.png") no-repeat;
+}
+.confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
+	background: url("app/img/rn-service-24h.png") no-repeat;
+}
+
+.confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1),
+.confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1),
+.confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
+	background-size: 35px 35px;
+    background-position: 20px 25px;
+}
+tr:hover {
+    background-color: #e0dede;
+}
