@@ -63,7 +63,7 @@ li {
     /*outline: 1px dashed red;*/    margin-bottom: 50px;
 }
 #block-languageswitcherblock  a {
-    background: transparent url("flags-foot.svg") no-repeat;
+    background: transparent url("../img/flags-foot.svg") no-repeat;
     background-size: 43px;  padding: 10px; padding-left: 50px;
 }
 #block-languageswitcherblock ul { padding: 0; }
@@ -90,4 +90,4 @@ li {
 .block-config-provider--rn-user .block__content {
     position: relative;
 }
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+/*@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);*/

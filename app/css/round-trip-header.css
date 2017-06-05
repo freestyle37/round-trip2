@@ -39,7 +39,7 @@
 .container.pr-header__rw .pr-header__header-second {
 	flex-basis: 20%;
     
-   background: url(logo.svg) no-repeat 50% 50%;
+   background: url(../img/logo.svg) no-repeat 50% 50%;
    width: 105px;
    height: 84px;
 }
@@ -73,14 +73,14 @@
 }
 .block-config-provider--rn-user .block__inner .user-settings .icon {
 	
-    background: url(setting-icon.svg) no-repeat 50% 49%;
+    background: url(../img/setting-icon.svg) no-repeat 50% 49%;
     width: 18px;
     height: 18px;
     background-size: 18px;
 }
 .current-lang-currency::before {
     content: "";
-    background: url(flags-foot.svg) no-repeat;
+    background: url(../img/flags-foot.svg) no-repeat;
     width: 30px;
     height: 20px;
     background-size: 90%;

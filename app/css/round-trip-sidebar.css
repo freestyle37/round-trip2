@@ -33,13 +33,13 @@
 }
 
 .confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1) {
-	background: url("app/img/rn-train.png") no-repeat;
+	background: url("../img/rn-train.png") no-repeat;
 }
 .confidence-block tbody tr:nth-of-type(2) td:nth-of-type(1) {
-	background: url("app/img/rn-seat.png") no-repeat;
+	background: url("../img/rn-seat.png") no-repeat;
 }
 .confidence-block tbody tr:nth-of-type(3) td:nth-of-type(1) {
-	background: url("app/img/rn-service-24h.png") no-repeat;
+	background: url("../img/rn-service-24h.png") no-repeat;
 }
 
 .confidence-block tbody tr:nth-of-type(1) td:nth-of-type(1),

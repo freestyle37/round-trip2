@@ -35,7 +35,7 @@
 	display: none;
 }
 .block-config-provider--rn-user .block__inner .user-settings .icon {
-    background: url(setting-icon.svg) no-repeat 50% 49%;
+    background: url(../img/setting-icon.svg) no-repeat 50% 49%;
     width: 28px;
     height: 28px;
     background-size: 28px;

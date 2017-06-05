@@ -42,7 +42,7 @@
 	margin-bottom: 40px;
 	width: 148px;
 	height: 18px;
-	background: url("railninja_0.png") no-repeat;
+	background: url("../img/railninja_0.png") no-repeat;
 }
 .block-plugin-id--block-content0344e317-6ac1-4446-a78b-a6fa85c9a5f9 .field__item > p:nth-of-type(3) {
 	margin-bottom: 40px;
@@ -63,7 +63,7 @@
 	width: 48px;
     height: 48px;
     background-color: #777777;
-    background: url(footer-icons-default.png) no-repeat;
+    background: url(../img/footer-icons-default.png) no-repeat;
     background-size: 150px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -93,7 +93,7 @@
 	width: auto;
 	max-width: 100%;
 	height: 32px;
-	background: url(stripe-grey_0.png) no-repeat;
+	background: url(../img/stripe-grey_0.png) no-repeat;
 	background-size: 100%;
 }
 
@@ -133,7 +133,7 @@
 
 /*.pr-footer__footer .footer-tel .block__content */.footer-arrow {
 	/*position: relative;*/
-	background: url(footer-arrow-right.svg) no-repeat 50% 50%;
+	background: url(../img/footer-arrow-right.svg) no-repeat 50% 50%;
     cursor: pointer;
     /*outline: 1px solid black;*/
     margin-left: 50px; /*flex-basis: 5%;*/
@@ -181,7 +181,7 @@
 }
 .block-title .large-icon .footer-icon.tel,
 .footerlanguage .footer-icon .inner-icon {
-	background: url(footer-icons-default.png) no-repeat;
+	background: url(../img/footer-icons-default.png) no-repeat;
     width: 60px;
     height: 60px;
     background-size: 180px;

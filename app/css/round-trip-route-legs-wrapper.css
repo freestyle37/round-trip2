@@ -137,7 +137,7 @@ option {
     width: 22px;
     height: 22px;
     
-    background: url(ninja-adult.svg) repeat;
+    background: url(../img/ninja-adult.svg) repeat;
     background-size: 22px 22px;
     
 }
@@ -248,12 +248,13 @@ label.option {
 }
 span.departure.value::after {
     font-family: 'FontAwesome';
-    content: "\f2d6";
+    content: "\f061";
     font-size: 1.25rem;
     margin: 0px 20px;
     line-height: 1;
     left: 1px;
     top: 0;
+    color: #7b7575;
 }
 .train-bookingpassenger-form .leg-info-wrapper .number {
     font-size: 1.625rem;
